@@ -1,0 +1,26 @@
+#-------------------------------
+# Geometry Section
+#-------------------------------
+dimensions:system-size-x = 8 !nm
+dimensions:system-size-y = 8 !nm
+dimensions:system-size-z = 8 !nm
+
+dimensions:unit-cells = 11
+
+#-------------------------------
+# Material Section
+#-------------------------------
+material:thermal-conductivity = 0.552 !(W/(m·K))
+material:heat-capacity        = 4192 !(J/(kg·K))
+material:material-density     = 998 !(kg/m^3)
+#material:thermal-conductivity = 0.6089   2.25   0.778  384.1
+#material:heat-capacity        = 4.1813   1133   1.0492 0.5091
+#material:material-density     = 997.0479 1.0492 3.758  8940
+material:initial-heat         = 300
+
+#-------------------------------
+# Simulation Section
+#-------------------------------
+simulation:fps = 1000
+simulation:heat-source-power = 25
+simulation:dt = 0.001
